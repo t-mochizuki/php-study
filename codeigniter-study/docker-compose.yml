@@ -6,4 +6,3 @@ services:
     image: composer:1.10.5
     volumes:
       - $PWD/:/app
-    command: composer create-project kenjis/codeigniter-composer-installer api
